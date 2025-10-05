@@ -8,3 +8,4 @@ Bored or don't know what to do? Click the button, play a game.
 -Created frontend and backend folders.
 -Created and began implementation of main.py.
 -Added activities endpoint in backend.
+-Continued implementation in main.py.
