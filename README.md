@@ -10,3 +10,4 @@ Bored or don't know what to do? Click the button, play a game.
 -Added activities endpoint in backend.
 -Continued implementation in main.py.
 -Fixed main.py errors.
+-Added intx.html with implementation.

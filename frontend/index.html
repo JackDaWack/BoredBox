@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BoredBox</title>
+</head>
+<body>
+    <button id="show-message">Show Message</button>
+    <div id="message"></div>
+
+    <script>
+        document.getElementById('show-message').addEventListener('click', async () => {
+            const response = await fetch('http://localhost:5000/message');
+            const data = await response.text();
+            document.getElementById('message').textContent = data;
+        });
+    </script>
+</body>
+</html>
