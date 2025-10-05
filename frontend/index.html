@@ -10,10 +10,11 @@
 
     <script>
         document.getElementById('show-message').addEventListener('click', async () => {
-            const response = await fetch('http://localhost:8000/');
-            const data = await response.json();
-            document.getElementById('message').textContent = data.message;
-        });
+        const response = await fetch('http://localhost:8000/random-game');
+        const data = await response.json();
+        // Redirect to the game page based on the returned game name
+        window.location.href = `games/${data.game}.html`;
+    });
     </script>
 </body>
 </html>

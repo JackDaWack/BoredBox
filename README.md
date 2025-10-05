@@ -18,4 +18,5 @@ Bored or don't know what to do? Click the button, play a game.
 - Added more folders from the architecture map.
 - Added rust implementation for fun.
 - Added randomizer.
+- wow.
 - Updated README.
