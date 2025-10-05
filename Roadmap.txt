@@ -1,0 +1,127 @@
+⚡️ One-Month BoredBox Roadmap
+🗓️ Week-by-Week Plan
+✅ Week 1 — Core Setup & MVP Plan
+
+Goal: Lay groundwork, get routing working, and a working button → game page flow.
+
+📌 Tasks
+
+ Set up project structure (frontend/, backend/, games/, etc.)
+
+ Choose tech stack:
+
+Backend: FastAPI
+
+Frontend: Vanilla JS + HTML/CSS
+
+ Build main page with the "I'm Bored" button
+
+ Implement backend route to select and serve a random game
+
+ Create basic HTML pages for 3 placeholder games
+
+ Test button → random game routing
+
+🎯 Deliverables:
+
+Basic working app: press button → redirected to game page (even if just placeholders)
+
+✅ Week 2 — Game 1: Python (Hangman)
+
+Goal: Build a complete playable Hangman game using Python (logic) + JS (UI).
+
+📌 Tasks
+
+ Implement Hangman logic in Python (/api/hangman/start, /guess)
+
+ Set up endpoints using FastAPI
+
+ Frontend JS to:
+
+Start a new game
+
+Send guesses
+
+Display word, incorrect guesses, game over
+
+ Style it lightly with CSS
+
+🎯 Deliverables:
+
+Fully working Hangman game with Python backend
+
+Smooth UI + API interaction
+
+✅ Week 3 — Game 2: Rust (Turn-Based Fighting Game in WASM)
+
+Goal: Build a basic turn-based fighting game using Rust + WASM.
+
+📌 Tasks
+
+ Write core logic in Rust (player stats, moves, win/loss conditions)
+
+ Use wasm-pack and wasm-bindgen to compile and expose functions
+
+ Create simple frontend in JS/HTML to interact with Rust WASM module
+
+ Display battle updates, HP bars, win/loss screen
+
+⚠️ Keep it simple:
+
+One action per turn (Attack, Heal, Special)
+
+Basic UI with text updates
+
+🎯 Deliverables:
+
+Rust-based game playable in browser via WebAssembly
+
+Smooth JS <-> Rust interaction
+
+✅ Week 4 — Game 3 (C++) + Polish & Deployment
+
+Goal: Build a simple game in C++ (via WASM), then polish and deploy the whole project.
+
+📌 Tasks:
+🕹️ Mini C++ Game (e.g., Reaction Time or Tiny Racer)
+
+ Write game logic in C++ (basic SDL2 app or just logic)
+
+ Compile to WASM with Emscripten
+
+ Add JS glue code to run in browser
+
+ Keep it visually minimal
+
+🧼 Polish & Deploy
+
+ Add basic CSS styling across pages
+
+ Improve game randomization
+
+ Add simple error handling/loading states
+
+ Optional: add favicon, sound effects, logo
+
+🚀 Deploy (optional but recommended)
+
+ Host frontend (Netlify, Vercel)
+
+ Host backend (Render or Fly.io)
+
+ Connect domains if needed
+
+🎯 Deliverables:
+
+3 working games: Python, Rust, C++
+
+Deployed or fully packaged project
+
+You can proudly demo it 🎉
+
+📦 Summary: BoredBox MVP in 4 Weeks
+Week	Focus	Output
+1	Setup & Routing	App structure, button → game routing
+2	Python Game	Hangman game (Python + JS)
+3	Rust Game	Fighting game (Rust + WASM + JS)
+4	C++ Game + Polish	Reaction game (C++ + WASM) + final polish
