@@ -15,4 +15,5 @@ Bored or don't know what to do? Click the button, play a game.
 - Ran with [python -m uvicorn main:app --reload].
 - Added more implementation to index.html.
 - Added architecture map.
+- Added more folders from the architecture map.
 - Updated README.
