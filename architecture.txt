@@ -1,0 +1,35 @@
+boredbox/
+│
+├── backend/               # FastAPI backend
+│   ├── main.py            # API entry point
+│   ├── games/
+│   │   ├── __init__.py
+│   │   ├── hangman.py     # Python game logic
+│   │   └── randomizer.py  # Random game selection logic
+│   └── static/            # WASM files, JS glue, etc.
+│
+├── frontend/              # Static frontend files
+│   ├── index.html         # Main landing page with button
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── main.js        # Button logic, routing
+│   │   ├── hangman.js     # Hangman UI + API interaction
+│   │   ├── fighting.js    # Rust game UI logic
+│   │   └── cpp_game.js    # C++ game UI logic
+│   └── games/
+│       ├── hangman.html
+│       ├── fighting.html
+│       └── reaction.html
+│
+├── rust_game/             # Rust game source
+│   └── src/
+│       └── lib.rs
+│   └── pkg/               # WASM build output via wasm-pack
+│
+├── cpp_game/              # C++ game source
+│   └── reaction.cpp
+│   └── build/             # Compiled WASM + JS glue via Emscripten
+│
+├── README.md
+└── requirements.txt
