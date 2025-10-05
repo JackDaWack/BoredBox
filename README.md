@@ -16,4 +16,5 @@ Bored or don't know what to do? Click the button, play a game.
 - Added more implementation to index.html.
 - Added architecture map.
 - Added more folders from the architecture map.
+- Added rust implementation for fun.
 - Updated README.
