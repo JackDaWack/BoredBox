@@ -9,3 +9,4 @@ Bored or don't know what to do? Click the button, play a game.
 -Created and began implementation of main.py.
 -Added activities endpoint in backend.
 -Continued implementation in main.py.
+-Fixed main.py errors.
