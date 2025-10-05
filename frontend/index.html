@@ -10,9 +10,9 @@
 
     <script>
         document.getElementById('show-message').addEventListener('click', async () => {
-            const response = await fetch('http://localhost:5000/message');
-            const data = await response.text();
-            document.getElementById('message').textContent = data;
+            const response = await fetch('http://localhost:8000/');
+            const data = await response.json();
+            document.getElementById('message').textContent = data.message;
         });
     </script>
 </body>

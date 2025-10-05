@@ -13,4 +13,5 @@ Bored or don't know what to do? Click the button, play a game.
 - Added intx.html with implementation.
 - Installed uvicorn.
 - Ran with [python -m uvicorn main:app --reload].
+- Added more implementation to index.html.
 - Updated README.
