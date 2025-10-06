@@ -121,7 +121,7 @@ You can proudly demo it 🎉
 
 📦 Summary: BoredBox MVP in 4 Weeks
 Week	Focus	Output
-1	Setup & Routing	App structure, button → game routing
-2	Python Game	Hangman game (Python + JS)
+1	Setup & Routing	App structure, button → game routing [Complete]
+2	Python Game	Hangman game (Python + JS) [Complete]
 3	Rust Game	Fighting game (Rust + WASM + JS)
 4	C++ Game + Polish	Reaction game (C++ + WASM) + final polish
