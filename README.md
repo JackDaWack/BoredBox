@@ -7,7 +7,7 @@ Bored or don't know what to do? Click the button, play a game.
 - Removed unneeded files.
 - Updated Roadmap.
 - Implemented Rust game in lib.rs.
--
+- Added html file for visual representation.
 
 ### 10/5/2025
 - Created Git Repo for Project with Roadmap.
