@@ -5,7 +5,9 @@ Bored or don't know what to do? Click the button, play a game.
 
 ### 10/6/2025
 - Removed unneeded files.
-- Updated Roadmap. 
+- Updated Roadmap.
+- Implemented Rust game in lib.rs.
+-
 
 ### 10/5/2025
 - Created Git Repo for Project with Roadmap.
